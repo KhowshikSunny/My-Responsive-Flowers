@@ -20,13 +20,47 @@
     font-style: normal;
 }
 
+/* shared style  */
+.primary-color {
+    color: #E95A08 !important;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.font-noto {
+    font-family: "Noto Serif", sans-serif;
+}
+
+.para-color {
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-size: 22px !important;
+    font-family: "Inter", sans-serif;
+}
+
+.heading-style {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Noto Serif", sans-serif;
+    color: #000000;
+}
+
+
+
+
+
 /* logo style  */
 .menu-container {
     margin-top: 30px;
 }
-.menu-list ul li a:first-child{
+
+.menu-list ul li a:nth-child(1) {
     color: #252432;
 
+}
+.menu-list ul li a{
+    color: #8987A1 !important;
 }
 
 .logo {
@@ -39,4 +73,24 @@
     height: 24px;
     justify-content: center;
     align-items: center;
+}
+.banner-heading{
+    width: 570px;
+    height: 299px;
+}
+.banner-heading h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-img img{
+    width: 570px;
+    height: 355px;
+
+}
+
+
+.plants-heading p{
+    width: 888px;
+    height: 54px;
+    margin: 0 auto;
 }
