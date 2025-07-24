@@ -59,7 +59,8 @@
     color: #252432;
 
 }
-.menu-list ul li a{
+
+.menu-list ul li a {
     color: #8987A1 !important;
 }
 
@@ -74,37 +75,42 @@
     justify-content: center;
     align-items: center;
 }
-.banner-heading{
+
+.banner-heading {
     width: 570px;
     height: 299px;
 }
-.banner-heading h1{
+
+.banner-heading h1 {
     font-size: 4rem;
     font-weight: bold;
 }
-.banner-img img{
+
+.banner-img img {
     width: 570px;
     height: 355px;
 
 }
 
 
-.plants-heading p{
+.plants-heading p {
     width: 888px;
     height: 54px;
     margin: 0 auto;
 }
 
-.cards img{
+.cards img {
     width: 270px;
     height: 322px;
 }
-.card-discription{
+
+.card-discription {
     width: 132px;
     height: 52px;
     margin: 0 auto;
 }
-.card-discription h4{
+
+.card-discription h4 {
     color: #111111;
     font-size: 22px;
     line-height: 150%;
@@ -112,7 +118,8 @@
     font-weight: 600;
 
 }
-.card-discription h3{
+
+.card-discription h3 {
     color: #111111;
     font-size: 22px;
     line-height: 150%;
@@ -120,10 +127,74 @@
     font-weight: 900;
 
 }
-.card-container button{
+
+.card-container button {
     width: 270px;
     background-color: #E95A08;
     color: #FFFFFF;
     font-size: 1rem;
-    
+
+}
+
+.trusted-img {
+    margin-left: 364px;
+    margin-bottom: 130px;
+}
+
+.lover-heading {
+    margin-top: 100px;
+}
+
+.trusted-img img {
+    animation: badge 10s linear infinite;
+
+
+}
+
+@keyframes badge {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(36deg);
+    }
+
+    20% {
+        transform: rotate(72deg);
+    }
+
+    30% {
+        transform: rotate(108deg);
+    }
+
+    40% {
+        transform: rotate(144deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    60% {
+        transform: rotate(216deg);
+    }
+
+    70% {
+        transform: rotate(252deg);
+    }
+
+    80% {
+        transform: rotate(288deg);
+    }
+
+    90% {
+        transform: rotate(324deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
 }
