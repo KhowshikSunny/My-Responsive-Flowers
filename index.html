@@ -13,24 +13,24 @@
 
 <body>
     <header>
-        <section class=" invisible menu-container m-auto w-6xl h-20 flex justify-between items-center">
+        <section class=" menu-container m-auto w-6xl h-20 flex justify-between items-center">
             <div class="logo cursor-pointer ">
                 <img src="assets/logo.png" alt="">
             </div>
             <div class="menu-list">
                 <ul>
-                    <li class="sm:invisible md:visible lg:visible xl:visible px-12 py-5 my-6 inline inline-block"><a
+                    <li class="px-12 py-5 my-6 inline "><a
                             href="">Home</a></li>
-                    <li class=" sm:invisible md:visible lg:visible xl:visible px-12 py-5 my-6 inline inline-block"><a
+                    <li class="  px-12 py-5 my-6 inline "><a
                             href="">shop</a></li>
-                    <li class=" sm:invisible md:visible lg:visible xl:visible px-12 py-5 my-6 inline inline-block"><a
+                    <li class="px-12 py-5 my-6 inline "><a
                             href="">About Us</a></li>
-                    <li class=" sm:visible md:visible py-5 my-6 inline inline-block">
+                    <li class=" sm:visible md:visible py-5 my-6 inline ">
                         <a href="">
                         <span id="cart"
                                 class=" sm:visible material-symbols-outlined">shopping_cart</span></a>
                     </li>
-                    <li class=" sm:visible py-5 my-6 inline inline-block">
+                    <li class=" sm:visible py-5 my-6 inline ">
                         <a href=""> Cart($56) </a>
                     </li>
                 </ul>
@@ -39,8 +39,8 @@
 
 
         <!-- banner section  -->
-        <section class="banner-container flex justify-between items-center mt-40 mb-32  m-auto sm:flex-col-reverse">
-            <div class="banner-heading sm:flex-col-reverse sm:min-w-2xl md:w-6xl">
+        <section class="banner-container flex justify-between items-center mt-40 mb-32  m-auto sm:w-screen max-w-6xl">
+            <div class="banner-heading">
                 <h1>ALWAYS <span class="primary-color"> FRESH
                         FLOWERS</span>
                 </h1>
@@ -49,13 +49,13 @@
                     occasion. </p>
 
             </div>
-            <div class="banner-img">
-                <img class="sm:min-w-2xl md:w-6xl" src="assets/hero-flower.png" alt="">
+            <div class="banner-img ">
+                <img class="" src="assets/hero-flower.png" alt="">
 
             </div>
         </section>
     </header>
-    <main class="invisible">
+    <main class="">
         <section class="plants-container text-center mb-12">
             <div class="plants-heading ">
                 <h2 class="heading-style mb-4"> <span class="primary-color">Our</span> Plants </h2>
@@ -227,7 +227,7 @@
 
     </main>
     <footer>
-        <div class="footer-container w-[90rem] m-auto mt-52 flex justify-around gap-4 ">
+        <div class="footer-container sm:items-center flex-col w-[90rem] m-auto mt-52 flex justify-around gap-4 ">
             <div class="contents w-[22.43rem] h-[5.06rem] m-auto">
                 <div>
                 <img class="mb-3.5 w-[135px] h-[82px] cursor-pointer" src="assets/logo.png" alt="">
@@ -261,7 +261,5 @@
             </div>
         </div>
     </footer>
-
 </body>
-
 </html>
