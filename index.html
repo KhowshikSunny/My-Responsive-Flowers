@@ -13,8 +13,8 @@
 
 <body>
     <header>
-        <section class="menu-container m-auto w-6xl h-20 flex justify-between items-center">
-            <div class="logo ">
+        <section class=" invisible menu-container m-auto w-6xl h-20 flex justify-between items-center">
+            <div class="logo cursor-pointer ">
                 <img src="assets/logo.png" alt="">
             </div>
             <div class="menu-list">
@@ -25,8 +25,9 @@
                             href="">shop</a></li>
                     <li class=" sm:invisible md:visible lg:visible xl:visible px-12 py-5 my-6 inline inline-block"><a
                             href="">About Us</a></li>
-                    <li class=" sm:visible py-5 my-6 inline inline-block">
-                        <a href=""><span id="cart"
+                    <li class=" sm:visible md:visible py-5 my-6 inline inline-block">
+                        <a href="">
+                        <span id="cart"
                                 class=" sm:visible material-symbols-outlined">shopping_cart</span></a>
                     </li>
                     <li class=" sm:visible py-5 my-6 inline inline-block">
@@ -38,8 +39,8 @@
 
 
         <!-- banner section  -->
-        <section class="banner-container flex justify-between items-center mt-40 mb-32 w-6xl m-auto">
-            <div class="banner-heading">
+        <section class="banner-container flex justify-between items-center mt-40 mb-32  m-auto sm:flex-col-reverse">
+            <div class="banner-heading sm:flex-col-reverse sm:min-w-2xl md:w-6xl">
                 <h1>ALWAYS <span class="primary-color"> FRESH
                         FLOWERS</span>
                 </h1>
@@ -49,12 +50,12 @@
 
             </div>
             <div class="banner-img">
-                <img src="assets/hero-flower.png" alt="">
+                <img class="sm:min-w-2xl md:w-6xl" src="assets/hero-flower.png" alt="">
 
             </div>
         </section>
     </header>
-    <main>
+    <main class="invisible">
         <section class="plants-container text-center mb-12">
             <div class="plants-heading ">
                 <h2 class="heading-style mb-4"> <span class="primary-color">Our</span> Plants </h2>
@@ -214,21 +215,51 @@
         </section>
 
         <!-- join section  -->
-         <section class="join-content bg-[url(assets/news-letter-bg.png)] bg-no-repeat bg-cover w-screen h-[33.33rem] text-center  mt-52 ">
-            <div class="title-section w-[51.8rem] h-[8.81rem]">
-                <h1>Join the colorful Bunch</h1>
-                
+         <section class="join-content bg-[url(assets/news-letter-bg.png)] bg-no-repeat bg-cover w-[90rem] m-auto h-[33.33rem] text-center  mt-52 flex justify-center items-center ">
+            <div class="title-section w-[51.8rem] h-[8.81rem] m-auto">
+                <h1 class="font-noto font-bold text-white text-5xl mb-[1.9rem]">Join the colorful Bunch</h1>
+                <input class="bg-white outline-0 w-[40.25rem] py-[1.06rem] pl-[1.25rem]" type="email" name="" placeholder="Write Email" id="">
+                <input class="px-[50px] cursor-pointer py-[17px] bg-[#E95A08] ml-[-10px] text-white" type="button" value="Subscribe">
+
             </div>
 
          </section>
 
-
-
-
-
     </main>
     <footer>
+        <div class="footer-container w-[90rem] m-auto mt-52 flex justify-around gap-4 ">
+            <div class="contents w-[22.43rem] h-[5.06rem] m-auto">
+                <div>
+                <img class="mb-3.5 w-[135px] h-[82px] cursor-pointer" src="assets/logo.png" alt="">
+                <p class="w-[22.43rem] h-[5.06rem] m-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+                </div>
+            </div>
+            <div class="menu-link ">
+                <ul class="item-color">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="menu-feature ">
+                <ul class="item-color">
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="pages flex justify-start items-baseline gap-5">
+                <a href=""><img src="assets/icon-linkedin.png" alt=""></a>
+                <a href=""><img class="w-[32px] h-[32px]" src="assets/icon-twitter.png" alt=""></a>
+                <a href=""><img src="assets/icon-facebook.png" alt=""></a>
+                <a href=""><img src="assets/icon-youtube.png" alt=""></a>
 
+            </div>
+        </div>
     </footer>
 
 </body>

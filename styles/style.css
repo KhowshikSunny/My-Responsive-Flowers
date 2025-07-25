@@ -207,3 +207,15 @@
     margin-top: 56px;
    
 }
+.footer-container p{
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-size: 16px ;
+
+}
+.item-color {
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-size: 16px ;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
