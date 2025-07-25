@@ -1,0 +1,363 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "opsz" 14,
+        "wght" 400,
+        "ital" 0,
+        "wdth" 100;
+}
+
+/* common css style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Noto Serif", serif;
+    color: #000000;
+}
+
+span {
+    color: #E95A08;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    
+}
+
+
+button {
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    border: none;
+    padding: 10px 20px;
+    
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.active {
+    color: #252432 !important;
+    font-weight: 600;
+}
+
+/* Header Section style */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #000000;
+}
+
+.shopping-cart {
+    color: #000000;
+    
+}
+
+
+
+.cart-count {
+    color: #000000;
+}
+
+/* Banner Section style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.banner-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-title-highlight {
+    color: #E95A08;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.banner-image {
+    display: flex;
+    max-width: 600px;
+}
+
+
+/* Our Product Section */
+
+.our-products {
+    margin-top: 100px;
+}
+
+.section-header {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.all-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.product-card {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    width: 100%;
+    border-radius: 3px;
+    
+}
+
+/* Trusted Seller Section style */
+
+.trusted-seller {
+    margin: 150px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+.trusted-seller-image {
+    max-width: 550px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.trusted-badge {
+    max-width: 200px;
+    height: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    animation: spin 10s linear infinite;
+}
+
+/* Animation Spin infinite */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+.trusted-seller-content {
+    max-width: 550px;
+}
+
+.trusted-seller-title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+}
+
+.trusted-seller-list {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+    margin-left: 24px;
+}
+
+.trusted-seller-list li p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* Latest Deals Section */
+.latest-deals-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.bloom-plant,
+.ana-plant,
+.zabo-plant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/deal-bloom.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ana-plant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/deal-ana.png');
+}
+
+.zabo-plant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/deal-zabo.png');
+    grid-row: span 2;
+}
+
+.plant-title {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.shop-now-link {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+}
