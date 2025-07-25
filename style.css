@@ -22,7 +22,7 @@
         "wdth" 100;
 }
 
-/* common css style */
+/* Shared style */
 * {
     margin: 0;
     padding: 0;
@@ -66,7 +66,7 @@ img {
 a {
     color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    
+
 }
 
 
@@ -78,7 +78,7 @@ button {
     background-color: #E95A08;
     border: none;
     padding: 10px 20px;
-    
+
 }
 
 
@@ -94,7 +94,6 @@ button {
     font-weight: 600;
 }
 
-/* Header Section style */
 .header {
     display: flex;
     justify-content: space-between;
@@ -133,16 +132,13 @@ button {
 
 .shopping-cart {
     color: #000000;
-    
+
 }
-
-
 
 .cart-count {
     color: #000000;
 }
 
-/* Banner Section style */
 .banner {
     display: flex;
     justify-content: space-between;
@@ -178,7 +174,6 @@ button {
 }
 
 
-/* Our Product Section */
 
 .our-products {
     margin-top: 100px;
@@ -211,8 +206,6 @@ button {
 
 .product-card {
     background-color: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
     padding: 10px;
     text-align: center;
 }
@@ -223,7 +216,7 @@ button {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 10px;
+
 }
 
 .product-title {
@@ -241,11 +234,9 @@ button {
 
 .add-to-cart {
     width: 100%;
-    border-radius: 3px;
-    
+
 }
 
-/* Trusted Seller Section style */
 
 .trusted-seller {
     margin: 150px 0;
