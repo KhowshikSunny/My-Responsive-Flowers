@@ -352,3 +352,238 @@ button {
     font-weight: 500;
     text-decoration: underline;
 }
+.newsletter-container {
+    background-image: url('./assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.newsletter-content {
+    max-width: 800px;
+    width: 100%;
+
+}
+
+.newsletter-title {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.newsletter-form input {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.newsletter-form input:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.newsletter-btn {
+    padding: 15px 30px;
+    border: 2px solid transparent;
+}
+
+/* footer-container style */
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 20px;
+    padding: 50px 0;
+
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-logo a img {
+    width: 135px;
+}
+
+.footer-logo-description {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-social-links img {
+    width: 24px;
+    height: 24px;
+    
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .header {
+        margin: 0 20px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .cart-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .shopping-cart {
+        font-size: 14px;
+    }
+
+    .cart-count {
+        font-size: 12px;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .banner-image {
+        order: 1;
+    }
+
+    .banner-content {
+        order: 2;
+        padding: 0 20px;
+    }
+
+    .banner-title {
+        font-size: 24px;
+    }
+
+    .banner-description {
+        font-size: 14px;
+    }
+
+    
+    .our-products {
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .all-products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-description {
+        font-size: 14px;
+    }
+
+    
+    .latest-deals {
+        padding: 0 20px;
+    }
+
+    .trusted-seller {
+        margin: 50px 0;
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+    .trusted-badge {
+        display: none;
+    }
+
+    .trusted-seller-title {
+        font-size: 24px;
+    }
+
+    .latest-deals-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 200px);
+        margin-bottom: 50px;
+    }
+
+    .zabo-plant {
+        grid-row: span 1;
+    }
+
+
+    .newsletter-container {
+        height: 350px;
+    }
+
+    .newsletter-title {
+        font-size: 24px;
+    }
+
+    .newsletter-form input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .newsletter-btn {
+        padding: 10px 20px;
+    }
+
+    .newsletter-content {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: start;
+        padding: 30px 20px;
+    }
+
+}
